@@ -6,30 +6,30 @@ import pizzaBirdDescription from "../descriptions";
 
 function Home() {
   const pbImgList = [
-    "/images/screenshots/pb-ss-1.png",
-    "/images/screenshots/pp-ss-2.png",
-    "/images/screenshots/pp-ss-4.png",
-    "/images/screenshots/pp-ss-5.png",
-    "/images/screenshots/pp-ss-6.png",
-    "/images/screenshots/pp-ss-8.png",
+    "images/screenshots/pb-ss-1.png",
+    "images/screenshots/pp-ss-2.png",
+    "images/screenshots/pp-ss-4.png",
+    "images/screenshots/pp-ss-5.png",
+    "images/screenshots/pp-ss-6.png",
+    "images/screenshots/pp-ss-8.png",
   ];
 
   const bbImgList = [
-    "/images/screenshots/bb-ss-1.png",
-    "/images/screenshots/bb-ss-2.png",
-    "/images/screenshots/bb-ss-3.png",
-    "/images/screenshots/bb-ss-4.png",
-    "/images/screenshots/bb-ss-5.png",
-    "/images/screenshots/bb-ss-6.png",
+    "images/screenshots/bb-ss-1.png",
+    "images/screenshots/bb-ss-2.png",
+    "images/screenshots/bb-ss-3.png",
+    "images/screenshots/bb-ss-4.png",
+    "images/screenshots/bb-ss-5.png",
+    "images/screenshots/bb-ss-6.png",
   ];
 
   const cnImgList = [
-    "/images/screenshots/cn-ss-1.png",
-    "/images/screenshots/cn-ss-2.png",
-    "/images/screenshots/cn-ss-3.png",
-    "/images/screenshots/cn-ss-4.png",
-    "/images/screenshots/cn-ss-5.png",
-    "/images/screenshots/cn-ss-6.png",
+    "images/screenshots/cn-ss-1.png",
+    "images/screenshots/cn-ss-2.png",
+    "images/screenshots/cn-ss-3.png",
+    "images/screenshots/cn-ss-4.png",
+    "images/screenshots/cn-ss-5.png",
+    "images/screenshots/cn-ss-6.png",
   ];
 
   const pbDescription = "Ett spel skapat med SwiftUI och SpriteKit. I spelet är du en fågel" +

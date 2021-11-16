@@ -58,7 +58,7 @@ const Wrap = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  background-image: ${(props) => `url("/images/backgrounds/${props.bgImage}")`};
+  background-image: ${(props) => `url("images/backgrounds/${props.bgImage}")`};
 `;
 
 const TextContainer = styled.div`
