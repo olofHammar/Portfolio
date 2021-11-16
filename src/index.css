@@ -1,13 +1,80 @@
-body {
+* {
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  color: #393c41;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  letter-spacing: 0.15rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+@keyframes animateDown {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(5px);
+  }
+
+  60% {
+    transform: translateY(3px);
+  }
+}
+
+.projectItem {
+  scroll-snap-align: start;
+}
+
+.screenShotsBodyContainer {
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: rgb(228, 227, 227);
+  outline: none !important;
+  outline-offset: none !important;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    180deg,
+    #fff 25%,
+    #eeeeee 20%,
+    #eeeeee 75%,
+    #fff 40%,
+    #fff 100%,
+    #eeeeee 70%,
+    #eeeeee 100%
+  );
+  background-size: cover;
+}
+
+.btnModalClose {
+  width: 100%;
+}
+
+.aboutBodyContainer {
+  height: 60vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  background-color: rgb(255, 255, 255);
+  outline: none !important;
+  outline-offset: none !important;
+  border-radius: 5px;
 }
