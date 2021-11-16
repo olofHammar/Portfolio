@@ -2,9 +2,8 @@ import React from "react";
 import styled from "styled-components";
 import AboutModal from "../Modal/AboutModal";
 import EmailIcon from "@mui/icons-material/Email";
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
-import GitHubIcon from '@mui/icons-material/GitHub';
+import PhoneIphoneIcon from "@mui/icons-material/PhoneIphone";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 function Section({ id }) {
   return (
@@ -42,7 +41,7 @@ const Wrap = styled.div`
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-image: url("/images/backgrounds/bg-home.png");
+  background-image: url("images/backgrounds/bg-home.png");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
