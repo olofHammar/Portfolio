@@ -130,8 +130,9 @@ const ImageContainer = styled.div`
 
   @media (max-width: 580px) {
     height: 65%;
-    width: 80%;
+    width: 100%;
     margin-top: 20%;
+    background-color: white;
   }
 `;
 
@@ -156,7 +157,7 @@ const ThumbnailContainer = styled.div`
   @media (max-width: 580px) {
     grid-template-columns: 10% 10% 10% 10% 10% 10%;
     justify-content: space-between;
-    padding: 8px;
+    padding: 12px;
   }
 `;
 
@@ -166,4 +167,8 @@ const Thumbnail = styled.img`
   display: flex;
   border: 1px solid black;
   cursor: pointer;
+
+  @media (max-width: 580px) {
+    height: 50px;
+  }
 `;
