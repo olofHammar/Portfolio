@@ -26,7 +26,7 @@ function Section({ id }) {
             <LeftButton>Om mig</LeftButton>
           </AboutModal>
         </ButtonGroup>
-        <DownArrow src="/images/white-arrow-down.png" />
+        <DownArrow src="images/white-arrow-down.png" />
       </Buttons>
     </Wrap>
   );
@@ -41,7 +41,7 @@ const Wrap = styled.div`
   background-size: cover;
   background-position: center bottom;
   background-repeat: no-repeat;
-  background-image: url("/images/backgrounds/bg-home.png");
+  background-image: url("images/backgrounds/bg-home.png");
   display: flex;
   flex-direction: column;
   justify-content: space-between;
