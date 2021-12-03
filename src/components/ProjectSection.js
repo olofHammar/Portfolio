@@ -74,6 +74,10 @@ const TextContainer = styled.div`
 const IconImg = styled.img`
   height: 50px;
   margin-bottom: 10px;
+
+  @media (max-width: 580px) {
+    height: 30px;
+  }
 `;
 
 const ItemText = styled.div`
@@ -83,6 +87,10 @@ const ItemText = styled.div`
   h1 {
     padding-bottom: 1vh;
     font-size: 30px;
+
+    @media (max-width: 580px) {
+      font-size: 20px;
+    }
   }
 
   p {
@@ -92,6 +100,11 @@ const ItemText = styled.div`
   @media (max-width: 768px) {
     width: 50vw;
   }
+
+  @media (max-width: 580px) {
+    width: 90vw;
+  }
+
 `;
 
 const Buttons = styled.div``;

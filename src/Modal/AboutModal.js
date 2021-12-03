@@ -87,8 +87,8 @@ const ButtonCloseContainer = styled.div`
 const CustomClose = styled(CloseIcon)`
   cursor: pointer;
   position: fixed;
-  top: 20;
-  right: 20;
+  top: 2%;
+  right: 21%;
   margin-top: 35px;
   background-color: rgba(0, 0, 0, 0);
   width: 30px;
@@ -96,6 +96,10 @@ const CustomClose = styled(CloseIcon)`
   font-size: 20px;
   font-weight: 600;
   border: none;
+
+  @media (max-width: 580px) {
+    right: 10%;
+  }
 `;
 
 const AboutContainer = styled.div`
@@ -123,5 +127,13 @@ const AboutContainer = styled.div`
     font-weight: 400;
     padding-top: 4px;
   }
-`;
 
+  @media (max-width: 750px) {
+    padding: 10px;
+    margin-top: 10px;
+
+    h2 {
+      font-size: 12px;
+    }
+  }
+`;
