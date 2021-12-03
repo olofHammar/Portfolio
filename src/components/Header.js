@@ -116,6 +116,11 @@ const Container = styled.div`
   left: 0;
   right: 0;
   z-index: 1;
+
+  @media (max-width: 600px) {
+    margin-right: 0vw;
+    font-size: 12px;
+  }
 `;
 
 const HeaderLogo = styled.div`
@@ -156,6 +161,12 @@ const Menu = styled.div`
   }
   @media (max-width: 768px) {
     margin-right: 0vw;
+  }
+
+  @media (max-width: 500px) {
+    margin-right: 0vw;
+    visibility: hidden;
+    width: 0%;
   }
 `;
 
@@ -218,6 +229,11 @@ const BurgerNav = styled.div`
       font-weight: 400;
       padding-top: 4px;
     }
+  }
+
+  @media (max-width: 500px) {
+    margin-right: 0vw;
+    width: 90%;
   }
 `;
 

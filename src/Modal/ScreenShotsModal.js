@@ -94,8 +94,8 @@ const ButtonCloseContainer = styled.div`
 const CustomClose = styled(CloseIcon)`
   cursor: pointer;
   position: fixed;
-  top: 20;
-  right: 20;
+  top: 10%;
+  right: 21%;
   margin-top: 10px;
   background-color: rgba(0, 0, 0, 0);
   width: 30px;
@@ -103,6 +103,10 @@ const CustomClose = styled(CloseIcon)`
   font-size: 20px;
   font-weight: 600;
   border: none;
+
+  @media (max-width: 580px) {
+    right: 10%;
+  }
 `;
 
 const GalleryContainer = styled.div`
@@ -111,6 +115,10 @@ const GalleryContainer = styled.div`
   height: 100%;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 580px) {
+    display: inline;
+  }
 `;
 
 const ImageContainer = styled.div`
@@ -119,6 +127,10 @@ const ImageContainer = styled.div`
   height: 90%;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 580px) {
+    height: 80%;
+  }
 `;
 
 const LargeImage = styled.img`
@@ -138,6 +150,10 @@ const ThumbnailContainer = styled.div`
   height: 35%;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 580px) {
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+  }
 `;
 
 const Thumbnail = styled.img`
